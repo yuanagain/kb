@@ -99,10 +99,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#practical_byzantine_fault_tolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#practical_byzantine_fault_tolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Consensus_Algorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#proof_of_stake -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#proof_of_stake">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Consensus_Algorithm"/>
+        <rdfs:comment>Proof-of-Stake</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Delegated_Proof-of-Stake_(DPoS) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Delegated_Proof-of-Stake_(DPoS)">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Proof-of-Stake_(PoS)"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#proof_of_stake"/>
     </owl:Class>
     
 
@@ -118,14 +135,6 @@
     <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Distributed_Ledger_Technology_(DLT) -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Distributed_Ledger_Technology_(DLT)"/>
-    
-
-
-    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Proof-of-Stake_(PoS) -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Proof-of-Stake_(PoS)">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Consensus_Algorithm"/>
-    </owl:Class>
     
 
 
