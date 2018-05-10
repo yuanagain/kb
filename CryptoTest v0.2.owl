@@ -21,6 +21,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin_Cash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin_Cash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain">
@@ -35,10 +51,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum_Classic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum_Classic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Litecoin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Litecoin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Monero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Monero">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Tangle -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Tangle">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Directed_Acyclic_Graph_(DAG)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#ZCash -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#ZCash">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Blockchain"/>
     </owl:Class>
     
 
@@ -78,6 +134,29 @@
     <owl:Class rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Proof-of-Work_(PoW)">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Consensus_Algorithm"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Bitcoin_Cash"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Ethereum_Classic"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Litecoin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#Monero"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/seannconvey/ontologies/2018/4/untitled-ontology-15#ZCash"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
